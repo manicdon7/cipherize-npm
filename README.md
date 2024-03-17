@@ -1,14 +1,15 @@
-cipherize
+**cipherize**
 
 cipherize is a Node.js package for simplify encryption, decryption and hashing using bcrypt and crypto.
 
-Installation
+**Installation**
 You can install cipherize via npm:
 
-bash
+**bash**
 npm install cipherize
-Usage
-Encryption
+
+**Usage**
+Encryption,Decryption,Hashing and Compare
 
 const cipherize = require('cipherize');
 
