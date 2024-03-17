@@ -21,9 +21,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/yourpackagename.git" },
+    "url": "https://github.com/manicdon7/code-hash" },
   "bugs": {
-    "url": "https://github.com/yourusername/yourpackagename/issues"
+    "url": "https://github.com/manicdon7/code-hash"
   },
-  "homepage": "https://github.com/yourusername/yourpackagename#readme"
+  "homepage": "https://github.com/manicdon7/code-hash"
 }
