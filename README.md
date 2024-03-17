@@ -42,7 +42,6 @@ decryptData Function
 Similar to encryptData, this function retrieves the decryption key and IV by sending a GET request to the /key endpoint. Then it sends a POST request to the /decrypt endpoint to decrypt the encrypted data using the retrieved key and IV.
 
 Endpoints:
-
 Key: http://localhost:5000/key (GET)
 Decrypt: http://localhost:5000/decrypt (POST)
 compareHash Function
