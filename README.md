@@ -7,12 +7,11 @@ First, install the Cipherize package from npm by running the following command i
 install using
 ![alt text](image-1.png)
 
-Once installed, initialize Cipherize in your project by requiring it:
-![alt text](image-2.png)
-
 Usage
 Now you can use the Cipherize functions to encrypt, decrypt, hash, and compare data.
 
+Once installed, initialize Cipherize in your project by requiring it:
+![alt text](image-2.png)
 
 Encrypting Data
 To encrypt data, use the encryptData function:
