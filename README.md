@@ -46,6 +46,9 @@ const cipherize = require('cipherize');
 const rehashedValue = cipherize.rehash('password');
 console.log('Rehashed Value:', rehashedValue);
 
+Test output
+![alt text](image.png)
+
 Author
 manikandan0508
 
