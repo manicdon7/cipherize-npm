@@ -5,32 +5,32 @@ Installation
 First, install the Cipherize package from npm by running the following command in your project directory:
 
 install using
-![alt text](image-6.png)
+![alt text](./results/image-6.png)
 
 Usage
 Now you can use the Cipherize functions to encrypt, decrypt, hash, and compare data.
 
 Once installed, initialize Cipherize in your project by requiring it:
-![alt text](image-1.png)
+![alt text](./results/image-1.png)
 
 Encrypting Data
 To encrypt data, use the encryptData function:
-![alt text](image-2.png)
+![alt text](./results/image-2.png)
 
 Decrypting Data
 To decrypt data, use the decryptData function:
-![alt text](image-3.png)
+![alt text](./results/image-3.png)
 
 Hashing Data
 To hash data, use the hashData function:
-![alt text](image-4.png)
+![alt text](./results/image-4.png)
 
 Comparing Hashes
 To compare hashed data with a value, use the compareHash function:
-![alt text](image-5.png)
+![alt text](./results/image-5.png)
 
 Test output
-![alt text](image.png)
+![alt text](./results/image.png)
 
 Note
 Cipherize operates on localhost by default. Ensure that your backend server is running on http://localhost:5000 or adjust the URLs accordingly if your server is hosted elsewhere.
