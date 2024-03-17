@@ -1,5 +1,4 @@
-**cipherize**
-
+****cipherize********
 cipherize is a Node.js package for simplify encryption, decryption and hashing using bcrypt and crypto.
 
 **Installation**
