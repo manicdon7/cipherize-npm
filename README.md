@@ -1,29 +1,50 @@
-Using Cipherize for Data Encryption and Decryption
-Cipherize is a npm package that provides functionality for encrypting and decrypting data securely. Follow the steps below to integrate Cipherize into your project:
+cipherize
+
+cipherize is a Node.js package for simplify encryption, decryption and hashing using bcrypt and crypto.
 
 Installation
-First, install the Cipherize package from npm by running the following command in your project directory:
+You can install cipherize via npm:
 
-install using
-![alt text](image-1.png)
-
-Once installed, initialize Cipherize in your project by requiring it:
-![alt text](image-2.png)
-
+bash
+npm install cipherize
 Usage
-Now you can use the Cipherize functions to encrypt, decrypt, hash, and compare data.
+Encryption
 
-Encrypting Data
-To encrypt data, use the encryptData function:
-![alt text](image-3.png)
+const cipherize = require('cipherize');
 
-Decrypting Data
-To decrypt data, use the decryptData function:
-![alt text](image-4.png)
+// Encrypt data using a secret key
+const encryptedData = cipherize.encryptData('hello world', 'your-secret-key');
+console.log('Encrypted Data:', encryptedData);
+Decryption
 
-Comparing Hashes
-To compare hashed data with a value, use the compareHash function:
-![alt text](image-5.png)
+const cipherize = require('cipherize');
+
+// Decrypt data using a secret key
+const decryptedData = cipherize.decryptData(encryptedData, 'your-secret-key');
+console.log('Decrypted Data:', decryptedData);
+Hashing
+
+const cipherize = require('cipherize');
+
+// Hash data using bcrypt
+const hashedData = cipherize.hashData('password');
+console.log('Hashed Data:', hashedData);
+Compare Hash
+
+const cipherize = require('cipherize');
+
+// Compare a value with a hashed value
+const value = 'password';
+const hashedValue = '$2b$10$examplehashedvalue';
+const isMatch = cipherize.compareHash(value, hashedValue);
+console.log('Is Match:', isMatch);
+Rehash
+
+const cipherize = require('cipherize');
+
+// Rehash a hashed value
+const rehashedValue = cipherize.rehash('password');
+console.log('Rehashed Value:', rehashedValue);
 
 Test output
 ![alt text](image.png)
