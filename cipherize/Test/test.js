@@ -1,4 +1,5 @@
 const readline = require('readline');
+
 const { encryptData, decryptData, hashData, compareHash } = require('../lib/urlhandlers');
 
 const rl = readline.createInterface({
