@@ -1,3 +1,3 @@
-const cipherzie = require('./cipherize');
+const { hashData, generateKey, encryptData, decryptData, compareHash } = require('./lib/cipherize');
 
-module.exports = cipherzie;
+module.exports = { hashData, generateKey, encryptData, decryptData, compareHash };
