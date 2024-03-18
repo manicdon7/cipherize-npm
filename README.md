@@ -6,7 +6,6 @@ First, install the Cipherize package from npm by running the following command i
 
 **install using**
 ![alt text](./results/image-6.png)
->>>>>>> 6c24afb3032371a1419971d2c385e703594a70d5
 
 **Usage**
 Now you can use the Cipherize functions to encrypt, decrypt, hash, and compare data.
