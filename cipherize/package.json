@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/manicdon7/code-hash"
+    "url": "https://github.com/manicdon7/cipherize-npm"
   },
   "bugs": {
-    "url": "https://github.com/manicdon7/code-hash"
+    "url": "https://github.com/manicdon7/cipherize-npm"
   },
-  "homepage": "https://github.com/manicdon7/code-hash"
+  "homepage": "https://github.com/manicdon7/cipherize-npm"
 }
