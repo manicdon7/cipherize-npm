@@ -1,6 +1,6 @@
 {
   "name": "cipherize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package for encryption decryption and Hashing using bcrypt and crypto",
   "main": "index.js",
   "scripts": {
