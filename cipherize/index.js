@@ -1,3 +1,3 @@
-const cipherzie = require('./cipherize/cipherize');
+const cipherzie = require('./cipherize');
 
 module.exports = cipherzie;

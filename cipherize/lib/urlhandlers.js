@@ -1,6 +1,6 @@
 async function hashData(data) {
     try {
-      const response = await fetch('http://localhost:5000/hash', {
+      const response = await fetch('https://cipherize-npm.vercel.app/hash', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -18,14 +18,14 @@ async function hashData(data) {
   
   async function encryptData(data) {
     try {
-      const keyResponse = await fetch('http://localhost:5000/key', {
+      const keyResponse = await fetch('https://cipherize-npm.vercel.app/key', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'
         },
       });
       const { key, iv } = await keyResponse.json();
-      const response = await fetch('http://localhost:5000/encrypt', {
+      const response = await fetch('https://cipherize-npm.vercel.app/encrypt', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -42,7 +42,7 @@ async function hashData(data) {
   
   async function decryptData(encryptedData) {
     try {
-      const keyResponse = await fetch('http://localhost:5000/key', {
+      const keyResponse = await fetch('https://cipherize-npm.vercel.app/key', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'
@@ -50,7 +50,7 @@ async function hashData(data) {
       });
       const { key, iv } = await keyResponse.json();
   
-      const response = await fetch('http://localhost:5000/decrypt', {
+      const response = await fetch('https://cipherize-npm.vercel.app/decrypt', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -73,7 +73,7 @@ async function hashData(data) {
   
   const compareHash = async (value, hashedValue) => {
     try {
-      const response = await fetch('http://localhost:5000/compareHash', {
+      const response = await fetch('https://cipherize-npm.vercel.app/compareHash', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
